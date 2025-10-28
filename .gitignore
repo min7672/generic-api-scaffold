@@ -1,0 +1,48 @@
+# Go binary files
+*.exe
+*.out
+*.test
+
+# Go workspace file
+go.work
+
+# Vendor directory (if you use Go modules, you may not need this)
+vendor/
+
+# Go build artifacts
+*.a
+*.so
+
+# IDE and editor files
+# JetBrains IDEs
+.idea/
+
+# VSCode
+.vscode/
+
+# Sublime Text
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Log files
+*.log
+
+# Backup files
+*~
+
+# Go modules cache
+/go.sum
+/go.mod
+
+# Ignore specific files related to build (useful for build directories)
+build/
+dist/
+
+# Temporary files
+tmp/
+
+
+.env
